@@ -137,3 +137,104 @@
 //Hacer los ejercicios (lo mas que puedan) menos el par o impar y nos volvemos a ver 12.15
 
 
+// function sumaUno (a, b){
+//     alert(a + b)
+// }
+
+// sumaUno(2, 5)
+
+// function sumaDos (a, b){
+//     return a + b
+// }
+
+// sumaDos(2, 5)
+
+
+
+
+//// RESPUESTA A LOS EJERCICIOS DE CLASE:
+
+//1) - 4) Crear una función sumar que tome como argumentos dos números y devuelva la suma de ellos
+
+// function sumar (a, b) {
+//     alert(a + b)
+// }
+// sumar(2, 3) // 5
+// sumar(1.2, 3.4) // 4.6
+// sumar(3, -5) // -2
+
+// function restar (a, b){
+//     alert(a - b)
+// }
+
+// restar(3, 2) // 1
+// restar(10, 5.5) // 4.5
+// restar(3, 5) // -2
+
+// function multiplicar (a, b){
+//     alert(a * b)
+// }
+// multiplicar(2, 3) // 6
+// multiplicar(4, 0.5) // 2
+
+// function dividir (a, b){
+//     alert (a / b)
+// }
+// dividir(12, 3) // 4
+// dividir(8, 4) // 2
+// dividir(30, 6) // 5
+
+// es par y es impar no lo vamos a ver todavia.
+
+
+
+// calcularAreaTriangulo(base, altura)
+
+// function calcularAreaTriangulo(base, altura){
+//     alert(base * altura / 2)
+// }
+
+// calcularAreaTriangulo(3, 4) // 6
+// calcularAreaTriangulo(5, 16) // 40
+// calcularAreaTriangulo(5, 6) // 40 --> esta mal es 15
+
+
+//base por altura divido 2
+
+// function calcularAreaTriangulo (base, altura){
+//     alert(base*altura/2)
+// }
+
+// calcularAreaTriangulo(3, 4) // 6
+
+//gritar(str)
+
+// function gritar(str){
+//     alert("¡" + str + "!")
+// }
+
+// gritar('hola') // ¡hola!
+// gritar('aaaaaa') // ¡aaaaaa!
+
+//obtenerNombreCompleto(nombre, apellido)
+
+// function obtenerNombreCompleto(nombre, apellido){
+//     alert(nombre + " " + apellido)
+// }
+// obtenerNombreCompleto('Ada', 'Lovelace') // 'Ada Lovelace'
+
+//saludar(nombre)
+// function saludar(nombre){
+//     alert("hola " + nombre + ", un gusto conocerte")
+// }
+
+// saludar('Ada') // 'Hola Ada, un gusto conocerte'
+
+//saludarGritando(nombre, apellido)
+// function saludarGritando(nombre, apellido){
+//     alert("¡hola " + nombre + " " + apellido +", un gusto conocerte!")
+// }
+
+// saludarGritando('Ada', 'Lovelace') // ¡Hola Ada Lovelace, un gusto conocerte!
+
+
